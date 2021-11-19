@@ -2,7 +2,7 @@ from matplotlib.image import imread
 import matplotlib.pyplot as plt
 import numpy as np
 
-input_image=imread("lac2.jpeg")
+input_image=imread("img.jpeg")
 
 r,g,b=input_image[:,:,0],input_image[:,:,1],input_image[:,:,2]
 gamma=1.04
